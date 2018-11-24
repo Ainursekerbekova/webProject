@@ -1,0 +1,77 @@
+body{
+    display: inline-flex;
+    background-image: url(http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png);
+}
+nav a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border: 2px solid lightgrey;
+    padding-left:55px;
+    padding-right: 55px;
+    width: 100%;
+}
+nav a:hover{
+    background-color: darkgray;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 50%;
+    bottom: 0;
+}
+.price{
+    font-weight: bold;
+}
+.title{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    width: fit-content;
+    max-width: 130px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    background-color: deepskyblue;
+}
+.card{
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid red;
+    width: 150px;
+    margin: 5px 25px 10px 25px;
+    position: relative;
+}
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.center{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container{
+    width: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right:auto;
+}
+.icon{
+    border-radius: 10px;
+    width: 30px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+header{
+    height: 100px;
+    align-items:center;
+    background-color: aqua;
+}
